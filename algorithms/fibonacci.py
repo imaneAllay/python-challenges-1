@@ -6,7 +6,7 @@
 
 def generate_fib(n):
     # TODO: Generate the Fibonacci sequence up to n
-    pass
+
 
 
 # Test the function with the following code

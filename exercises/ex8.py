@@ -3,10 +3,15 @@
 # and returns the name of the oldest student.
 
 def find_oldest_student(students):
-    # Your code here
-    pass
 
-
+    max_age = 0
+    oldest= ''
+    for name in students:
+        if max_age<students[name]:
+            max_age= students[name]
+            oldest=name
+        # return max(students)
+    return oldest
 # Test the function
 students = {"Alice": 18, "Bob": 20, "Charlie": 19, "David": 22}
 print(find_oldest_student(students))  # Expected output: "David"

@@ -1,8 +1,11 @@
 # Given a string, return the most frequent character within that string.
 
-def most_frequent_char(s):
-  pass # todo
-
+def most_frequent_char(str):
+ # todo
+ c=0
+  for s in str:
+     count+=1
+     print(number)
 
 
 

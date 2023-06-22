@@ -6,9 +6,17 @@
 
 import random
 
+
 def guess_the_number():
     secret_number = random.randint(1, 100)
+    print("Your secret number is", secret_number)
     # TODO: Implement the game logic
+    guess=5
+    if secret_number >guess:
+        print("Too high!")
+    else:
+        print ( "Too low!")
+
     pass
 
 # Start the game

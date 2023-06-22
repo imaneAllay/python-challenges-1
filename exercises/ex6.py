@@ -4,9 +4,11 @@
 
 def filter_uppercase_strings(strings):
     # Your code here
-    pass
-
-
+    new_string=()
+    for i in strings:
+        if i[0].isupper():
+          new_string += (i,)
+    return new_string
 # Test the function
 strings = ("Apple", "banana", "Cat", "dog", "Elephant", "Frog")
 print(filter_uppercase_strings(strings))  # Expected output: ("Apple", "Cat", "Elephant")

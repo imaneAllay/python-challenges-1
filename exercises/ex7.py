@@ -4,7 +4,8 @@
 
 def find_intersection(set1, set2):
     # Your code here
-    pass
+    set3= set1.intersection(set2)
+    return set3
 
 
 # Test the function

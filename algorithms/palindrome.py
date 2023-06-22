@@ -6,7 +6,9 @@
 
 def is_palindrome(text):
     # TODO: Check if text is a palindrome
-    pass
+    if text[0] == text[-1]:
+        return True
+
 
 # Test the function
 text = input("Enter a string: ")
